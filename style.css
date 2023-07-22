@@ -1,9 +1,11 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 0 ;
 }
 
 section{
     display: flex;
+    margin-bottom: 80px;
 }
 .div-head{
     width: 50%;
@@ -27,5 +29,33 @@ h1{
     font-weight: 700;
     border-radius: 5px;
 
+}
+.top-banner {
+    background-image:url(images/circle.png);
+    background-repeat: no-repeat;
+    
+}
+.sec2{
+    background-image: url(images/cir.png);
+    background-repeat: no-repeat;
+    background-position: right;
 
+}
+.Div2{
+    width: 50%;
+    padding: 40px;
+}
+.Div2 img{
+    margin-left: 40px;
+}
+.site{
+    color: darkorchid;
+}
+.button2{
+    text-decoration: none;
+    background-image: linear-gradient(green,red);
+    padding: 10px;
+    border-radius: 5px;
+    color: azure;
+    font-weight: 800;
 }
