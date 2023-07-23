@@ -3,7 +3,7 @@ body{
     margin: 0 ;
 }
 
-section{
+.flexible{
     display: flex;
     margin-bottom: 80px;
 }
@@ -11,8 +11,7 @@ section{
     width: 50%;
     padding: 40px;
 }
-.div-head img {
-    width: ;
+.pic img {
     margin-left: 90px; 
 }
 h1{
@@ -41,13 +40,7 @@ h1{
     background-position: right;
 
 }
-.Div2{
-    width: 50%;
-    padding: 40px;
-}
-.Div2 img{
-    margin-left: 40px;
-}
+
 .site{
     color: darkorchid;
 }
