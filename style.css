@@ -52,3 +52,39 @@ h1{
     color: azure;
     font-weight: 800;
 }
+.simple-head{
+    color: deeppink;
+}
+.experinc{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding: 10px;
+    padding-left: 20px;
+    border-radius: 15px;
+    
+}
+.goal{
+    background-image: url(images/cir.png);
+    background-repeat: no-repeat;
+    background-position:0 190px;
+    background-size: 90px 300px;
+}
+#border-div1{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,rgb(150, 35, 98)  );
+    border-image-slice: 1;
+    border-radius: 5px 5px;
+}
+#border-div2{
+    border-left: 7px solid;
+    border-image: linear-gradient(rgb(211, 14, 185),rgb(217, 245, 4));
+    border-image-slice: 1;
+}
+footer{
+    text-align: center;
+    border-top: 2px solid ;
+    
+
+}
